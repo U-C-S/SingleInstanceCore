@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFrameworks>net6.0-windows</TargetFrameworks>
     <useWPF>true</useWPF>
     <Authors>soheilkd</Authors>
     <Company />
@@ -14,7 +14,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="TinyIpc" Version="3.0.1" />
+    <PackageReference Include="TinyIpc" Version="3.1.0" />
   </ItemGroup>
 
 </Project>
